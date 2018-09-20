@@ -39,6 +39,7 @@ LinkedList|可以为空|可以重复|有序|否
 ## 问题
 - LinkedList插入删除数据的速度一定比ArrayList快吗，why
 - LinkedList使用for循环迭代性能非常差，需使用Iterator迭代器迭代，why
+- ArrayList使用for循环迭代比iterator迭代器迭代快 ，why
 
 
 

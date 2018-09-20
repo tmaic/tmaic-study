@@ -2,6 +2,8 @@ package com.tmaic.collection;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
+import java.util.Vector;
 
 /**
  * Created by IntelliJ IDEA.
@@ -76,6 +78,7 @@ public class ArrayListVsLinkedList {
 
 
         System.out.println("插入的数据都在后半部分>>>>>>>>>>>End");
+
     }
 
 }
