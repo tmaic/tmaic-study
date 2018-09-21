@@ -29,3 +29,5 @@ copyOnWriteArrayList相当于线程安全的ArrayList，写入时，重新copy�
 - 线程安全
 - 适合集合不大，读多写少的场景
 - 对实时性要求不高的场景，读会最终一致性
+
+CopyOnWriteArrayList 
