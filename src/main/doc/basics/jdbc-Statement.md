@@ -1,4 +1,4 @@
-#JDBC - Statement vs PrepareStatement
+# JDBC - Statement vs PrepareStatement
 
 
 - Statement适用于静态sql
@@ -7,7 +7,7 @@
 
 上述都是用来与数据库执行SQL接口，通过数据库Connection创建
 
-###PrepareStatement优势
+### PrepareStatement优势
 
 - PrepareStatement可以支持动态参数化查询
 - SQL语句会预编译在数据库系统中。执行计划同样会被缓存起来，它允许数据库做参数化查询。使用预处理语句比普通的查询更快，因为它做的工作更少（数据库对SQL语句的分析，编译，优化已经在第一次查询前完成了）。为了减少数据库的负载，生产环境中德JDBC代码你应该总是使用PreparedStatement 。
@@ -19,7 +19,7 @@
 ***
 
 
-###mysql’#‘与’$‘区别
+### mysql’#‘与’$‘区别
 - #{ } 解析为一个 JDBC 预编译语句（prepared statement）的参数标记符。
 - ${ } 仅仅为一个纯碎的 string 替换，在动态 SQL 解析阶段将会进行变量替换
 
